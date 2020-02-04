@@ -18,7 +18,7 @@ if(isset($_POST['but_logout'])){
 <head>
  
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Artículos publicados</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -30,6 +30,9 @@ if(isset($_POST['but_logout'])){
 	<style>
 		.content {
 			margin-top: 80px;
+		}
+		body{
+			width: 90%;
 		}
 	</style>
  
@@ -66,8 +69,9 @@ if(isset($_POST['but_logout'])){
 			?>
  
 			<br />
-			<div class="table-responsive">
-			<table class="table table-striped table-hover">
+			<div class="">
+			<table class="table table-responsive table-striped">
+			<thead>
 				<tr>
                     <th>Id</th>
 					<th>Descripción</th>
@@ -77,6 +81,8 @@ if(isset($_POST['but_logout'])){
                     <th>Editar</th>
                     <th>Eliminar</th>
 				</tr>
+			</thead>
+			<tbody>
 				<?php
                 $sql = mysqli_query($con, "SELECT * FROM articulos ORDER BY id ASC");
                 $numero_filas = mysqli_num_rows($sql);
@@ -104,6 +110,7 @@ if(isset($_POST['but_logout'])){
 					}
 				}
 				?>
+				 </tbody>
 			</table>
 			</div>
 		</div>

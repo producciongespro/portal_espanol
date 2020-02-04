@@ -68,10 +68,8 @@
   }
 }
 
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-button {
+
+#btn_salir{
   background: none;
   border: 0;
   color: #ecf0f1;
@@ -85,9 +83,6 @@ button {
    -webkit-appearance: button; /* for input */
      -moz-user-select: none;
       -ms-user-select: none;
-}
-
-#btn_salir{
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: bold;
