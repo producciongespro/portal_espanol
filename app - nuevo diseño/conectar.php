@@ -2,8 +2,8 @@
 function conectarDB(){
 
         $servidor = "localhost";
-        $usuario = "recursos_gespro";
-        $password = "Hola123Gespro";
+        $usuario = "root";
+        $password = "";
         $bd = "recursos_espanol";
 
     $conexion = mysqli_connect($servidor, $usuario, $password,$bd);
