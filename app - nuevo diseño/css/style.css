@@ -3,37 +3,59 @@ body {
     background-color: #FFFFFF;
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
-    
+    line-height: 1.3;
 }
+
 h3, h4 {
     margin: 10px 0 30px 0;
     letter-spacing: 10px;
     font-size: 30px;
     font-weight: bold;
-    color: #FFFF00
+    color: #93C121
     }
 
 /* Color de los títulos los h3*/
-#titulo_asesoria {color: #852E20;}
-#titulo_programa {color: #BF4054;}
-#titulo_sitios {color: #16AF95;}
-#titulo_antologias {color: #EA920E ;}
-#titulo_micuento {color: #87BBE6;}
-#titulo_videoconferencia {color: #9372A6 ;}
-#titulo_video {color: #95C11E;}
-#titulo_documentos {color: #1D70B7;}
-#titulo_textos {color: #F39200;}
-#titulo_otros {color: #E30513;}
-#titulo_contacto {color: #852E20;}
-#titulo_desarrollo {color: #852E20;}
+#titulo_asesoria {color: #93C121;}
+#titulo_programa {color: #96368C;}
+#titulo_sitios {color: #93C121;}
+#titulo_micuento {color: #96368C;}
+#titulo_antologias {color: #93C121 ;}
+#titulo_video {color: #96368C;}
+#titulo_videoconferencia {color: #93C121 ;}
+#titulo_documentos {color: #96368C;}
+#titulo_textos {color: #93C121;}
+#titulo_otros {color: #96368C;}
+#titulo_contacto {color: #93C121;}
+#titulo_desarrollo {color: #96368C;}
 
 
+#logo 
+{
+    width: 92px;
+    height: 60px;
+    float: left;
+    margin-right: 14px;
+    margin-top: 13px;
+    margin-left: -20px;
+    margin-block: 10px;
+}
+
+#textinicial
+{
+    font-size: 120px;
+    font-weight: bold;
+}
+
+#calificame {
+    float: left;
+    margin-right: 10px; 
+    text-align: center;
+  }
+  
+  
 
 
-
-#logo {width: 60px; height: 50px;}
-
-.doc {color: #0431B4;}
+.doc {color: #93C121;}
 
 #tablas{align-content: center;}
 
@@ -180,6 +202,7 @@ textarea {
 .navbar-default .navbar-nav>li>a {
     color: #96368c;
     font-weight: bold;
+    font-size: 18px;
 }
 
 /*Linea del menú con color */
@@ -187,4 +210,23 @@ textarea {
     border: none;
     background-color: #96368c;
     height: 2px;
+}
+
+/*Color de Desarrolladores las 2 cejillas */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover 
+{
+    background-color: #d3a3ce;
+}
+
+
+.linea
+{
+    background-color: #96368c;  
+    color: #96368c;
+}
+
+.linea2
+{
+    background-color: #93C121;  
+    color: #93C121;
 }
